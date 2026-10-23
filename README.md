@@ -1,10 +1,10 @@
-# 🛡️ ContactGuard: Real-Time HubSpot Contact Deduplication & Sync Middleware
+#  ContactGuard: Real-Time HubSpot Contact Deduplication & Sync Middleware
 
 > **An automated Node.js middleware engine built to eliminate CRM duplicate record rot, standardize third-party form webhooks, and perform risk-evaluated data enrichment in HubSpot.**
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 Duplicate contacts cost B2B organizations thousands in wasted marketing spend, broken attribution, and inaccurate pipeline reporting. Standard CRM rules often fail when handling third-party form submissions, webhook variations, or cross-domain leads.
 
@@ -12,7 +12,7 @@ Duplicate contacts cost B2B organizations thousands in wasted marketing spend, b
 
 ---
 
-## ⚙️ Architectural Core Features
+##  Architectural Core Features
 
 * **Multi-Criteria Risk Scoring Engine:** Evaluates exact email matches, domain-level fuzzy matches, name similarity, and company parameters to assign a $0-100\%$ confidence score.
 * **Automated Lead Ingestion Endpoint:** Standardizes non-uniform JSON payloads from third-party form builders (`first_name`, `email_address`, `company_name`) into normalized CRM properties.
@@ -21,7 +21,7 @@ Duplicate contacts cost B2B organizations thousands in wasted marketing spend, b
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language/Runtime:** Node.js, Express.js
 * **API Integration:** Official `@hubspot/api-client`
@@ -30,7 +30,7 @@ Duplicate contacts cost B2B organizations thousands in wasted marketing spend, b
 
 ---
 
-## 📡 API Reference & Endpoints
+##  API Reference & Endpoints
 
 ### 1. Execute Live Audit (Dry Run)
 `POST /api/contacts/audit`
@@ -46,7 +46,7 @@ Duplicate contacts cost B2B organizations thousands in wasted marketing spend, b
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 contactguard/
@@ -64,6 +64,6 @@ contactguard/
 ├── package.json
 └── README.md
 
-👨‍💻 Author
+ Author
 Gideon Okoh — HubSpot & Marketing Automation Specialist / RevOps Systems Architect
 LinkedIn Profile - https://www.linkedin.com/in/gideonokoh-hubspot/
